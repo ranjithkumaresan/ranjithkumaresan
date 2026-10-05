@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranjith K | Software & Hardware Engineer</title>
+<meta name="description" content="Portfolio of Ranjith K, an aspiring Software / Hardware Engineer specializing in embedded systems, Python, STM32 and IoT.">
+<style>
+:root{
+  --bg:#070b14;--panel:#0d1422;--panel2:#111a2b;--text:#eef4ff;--muted:#9aa9bf;
+  --accent:#4da3ff;--accent2:#72e6c5;--line:rgba(255,255,255,.09);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:
+radial-gradient(circle at 85% 10%,rgba(77,163,255,.13),transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.5px}
+.brand span{color:var(--accent)}.links{display:flex;gap:26px;color:var(--muted);font-size:.94rem}.links a:hover{color:#fff}
+.hero{min-height:calc(100vh - 72px);display:grid;place-items:center;padding:90px 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.eyebrow{color:var(--accent2);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(3rem,7vw,5.8rem);line-height:.98;margin:18px 0 22px;letter-spacing:-4px}
+h1 span{color:var(--accent)}
+.hero p{max-width:690px;color:var(--muted);font-size:1.12rem}
+.actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:12px 19px;border-radius:10px;border:1px solid var(--line);font-weight:700;transition:.2s}
+.btn.primary{background:var(--accent);color:#04101d;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}
+.card{background:linear-gradient(145deg,rgba(17,26,43,.95),rgba(10,16,28,.95));border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.profile-card{position:relative;overflow:hidden}.profile-card:before{content:"";position:absolute;width:180px;height:180px;background:var(--accent);filter:blur(80px);opacity:.18;right:-40px;top:-50px}
+.stat{display:flex;justify-content:space-between;padding:15px 0;border-bottom:1px solid var(--line)}.stat:last-child{border:0}.stat b{color:#fff}.stat span{color:var(--muted)}
+section{padding:90px 0}.section-head{margin-bottom:35px}.section-head h2{font-size:2.2rem;letter-spacing:-1px}.section-head p{color:var(--muted);margin-top:7px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.skill{padding:9px 13px;background:rgba(77,163,255,.08);border:1px solid rgba(77,163,255,.2);border-radius:999px;color:#cfe4ff;font-size:.9rem}
+.project{display:grid;grid-template-columns:1fr auto;gap:25px;align-items:start}.tag{font-size:.75rem;color:var(--accent2);text-transform:uppercase;letter-spacing:1.4px;font-weight:800}.project h3{font-size:1.45rem;margin:8px 0}.project p{color:var(--muted)}ul{padding-left:20px;color:var(--muted);margin-top:12px}.project-icon{font-size:3rem;padding:14px}
+.timeline{border-left:1px solid var(--line);margin-left:8px;padding-left:30px}.item{position:relative;margin-bottom:30px}.item:before{content:"";position:absolute;left:-37px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(77,163,255,.12)}.item h3{font-size:1.2rem}.item .meta{color:var(--accent2);font-size:.88rem;margin:4px 0 7px}.item p{color:var(--muted)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact a{display:block;padding:15px 0;border-bottom:1px solid var(--line);color:#cdd9e9}.contact a:hover{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);text-align:center;font-size:.9rem}
+@media(max-width:800px){.links{display:none}.hero-grid,.grid-2,.contact{grid-template-columns:1fr}.hero{padding:65px 0}.profile-card{max-width:520px}h1{letter-spacing:-2px}.project{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+  <a class="brand" href="#home">RANJITH<span>.</span>K</a>
+  <div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<main id="home">
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <div class="eyebrow">Aspiring Software / Hardware Engineer</div>
+    <h1>Building with<br><span>Code & Electronics.</span></h1>
+    <p>Engineering graduate (2027) with hands-on exposure to Python programming, embedded systems, STM32, IoT and sensor-based applications. Passionate about solving practical engineering problems and building reliable prototypes.</p>
+    <div class="actions"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="#contact">Contact Me</a></div>
+  </div>
+  <div class="card profile-card">
+    <div class="eyebrow">Quick Profile</div>
+    <div class="stat"><span>Degree</span><b>B.E. Engineering</b></div>
+    <div class="stat"><span>Graduation</span><b>2027</b></div>
+    <div class="stat"><span>CGPA</span><b>7.2 / 10</b></div>
+    <div class="stat"><span>Focus</span><b>Embedded & IoT</b></div>
+    <div class="stat"><span>Location</span><b>India</b></div>
+  </div>
+</div></section>
+
+<section id="about"><div class="container">
+  <div class="section-head"><h2>About Me</h2><p>A practical learner who enjoys turning engineering concepts into working systems.</p></div>
+  <div class="card"><p style="color:var(--muted);font-size:1.05rem">I am an engineering graduate with hands-on exposure to Python programming, embedded systems and sensor-based applications. I enjoy hardware assembly, circuit testing, debugging and developing microcontroller-based solutions. Through academic projects and internship training, I have strengthened my problem-solving, communication and teamwork skills.</p></div>
+</div></section>
+
+<section id="skills"><div class="container">
+  <div class="section-head"><h2>Technical Skills</h2><p>Core technologies and engineering areas from my resume.</p></div>
+  <div class="grid-2">
+    <div class="card"><div class="tag">Programming</div><h3>Software</h3><div class="skills"><span class="skill">C Programming</span><span class="skill">Embedded C</span><span class="skill">Python</span></div></div>
+    <div class="card"><div class="tag">Embedded</div><h3>Microcontrollers & Tools</h3><div class="skills"><span class="skill">STM32</span><span class="skill">STM32CubeIDE</span><span class="skill">ESP32</span></div></div>
+    <div class="card"><div class="tag">IoT</div><h3>Connected Systems</h3><div class="skills"><span class="skill">IoT Fundamentals</span><span class="skill">Sensor Interfacing</span></div></div>
+    <div class="card"><div class="tag">Electronics</div><h3>Hardware</h3><div class="skills"><span class="skill">Basic Electronics</span><span class="skill">Digital Electronics</span><span class="skill">Microcontrollers</span></div></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="container">
+  <div class="section-head"><h2>Featured Project</h2><p>A hands-on embedded systems project focused on safety.</p></div>
+  <div class="card project">
+    <div><div class="tag">Academic Mini Project</div><h3>Gas Leakage Detection System</h3>
+      <p>Designed and built a system that continuously monitors ambient air using a gas sensor and activates an automatic buzzer alarm when gas is detected.</p>
+      <ul><li>End-to-end hardware assembly, circuit testing and troubleshooting.</li><li>Automatic alarm response designed to reduce response time to leaks.</li><li>Presented the working prototype to faculty and peers under test conditions.</li></ul>
+      <div class="skills"><span class="skill">Embedded Systems</span><span class="skill">Gas Sensor</span><span class="skill">Buzzer Alarm</span></div>
+    </div><div class="project-icon">⚡</div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="container">
+  <div class="section-head"><h2>Experience</h2><p>Practical exposure through industry training.</p></div>
+  <div class="card timeline">
+    <div class="item"><h3>EV Training Internship — EMERTXE</h3><div class="meta">One Month Internship</div><p>Gained practical hands-on knowledge in Embedded Systems and Electric Vehicle technologies. Worked with STM32 microcontrollers and Embedded C, participated in laboratory sessions, developed functional mini-projects, and strengthened debugging, testing and problem-solving skills.</p></div>
+  </div>
+</div></section>
+
+<section id="education"><div class="container">
+  <div class="section-head"><h2>Education & Certifications</h2><p>Academic background and professional learning.</p></div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="tag">Education</div><h3>Bachelor of Engineering</h3><p style="color:var(--muted)">EASA College of Engineering and Technology, Anna University</p><p style="color:var(--accent2);margin-top:8px">Expected 2027 · CGPA 7.2 / 10</p><hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+      <h3>Higher Secondary — 72%</h3><p style="color:var(--muted)">Sri Vijay Vidhayala Matric Higher Secondary School, Dharmapuri · 2021</p><hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+      <h3>SSLC — Pass</h3><p style="color:var(--muted)">Government Model Higher Secondary School, Palacode · 2019</p>
+    </div>
+    <div class="card">
+      <div class="tag">Certification</div><h3>Advanced EV Manufacturing Skilling Programme</h3><p style="color:var(--muted)">120 hours — Theory + Practical · July 2026</p><p style="margin-top:10px;color:var(--muted)">Conducted by GTT Foundation, supported by Accenture.</p>
+      <div class="skills"><span class="skill">EV Architecture</span><span class="skill">BMS</span><span class="skill">Manufacturing</span><span class="skill">Quality Process</span><span class="skill">Automotive Standards</span></div>
+      <p style="color:var(--muted);margin-top:20px">Also progressing through IBM SkillsBuild, Cisco Networking Academy, NPTEL and Coursera / Google certification learning.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="container">
+  <div class="section-head"><h2>Let’s Connect</h2><p>Open to entry-level Software and Hardware Engineering opportunities.</p></div>
+  <div class="card contact">
+    <div><div class="tag">Contact</div><a href="mailto:kumaresanranjith49@gmail.com">✉ kumaresanranjith49@gmail.com</a><a href="tel:+916383353037">☎ +91 63833 53037</a></div>
+    <div><div class="tag">Profiles</div><a href="https://linkedin.com/in/ranjith-k" target="_blank">↗ LinkedIn — linkedin.com/in/ranjith-k</a><a href="https://github.com/ranjith-k" target="_blank">↗ GitHub — github.com/ranjith-k</a><p style="color:var(--muted);margin-top:18px">Languages: Tamil (Native) · English (Professional)</p></div>
+  </div>
+</div></section>
+</main>
+<footer>© 2026 Ranjith K · Built with a focus on engineering, embedded systems and practical innovation.</footer>
+</body>
+</html>
